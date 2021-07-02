@@ -1,9 +1,9 @@
-import {ApplicationConfig, WeChatApiApplication} from './application';
+import {ApplicationConfig, MessaegeBOXApiApplication} from './application';
 
 export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
-  const app = new WeChatApiApplication(options);
+  const app = new MessaegeBOXApiApplication(options);
   await app.boot();
   await app.start();
 

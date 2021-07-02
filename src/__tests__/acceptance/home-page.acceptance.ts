@@ -1,9 +1,9 @@
 import {Client} from '@loopback/testlab';
-import {WeChatApiApplication} from '../..';
+import {MessaegeBOXApiApplication} from '../..';
 import {setupApplication} from './test-helper';
 
 describe('HomePage', () => {
-  let app: WeChatApiApplication;
+  let app: MessaegeBOXApiApplication;
   let client: Client;
 
   before('setupApplication', async () => {
